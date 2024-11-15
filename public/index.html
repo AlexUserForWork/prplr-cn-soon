@@ -1865,6 +1865,15 @@
          src="wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.24.4"
          id="pro-elements-handlers-js"
       ></script>
+      <script>
+         if (window.location.hostname !== 'localhost') {
+           const script = document.createElement('script');
+           script.defer = true;
+           script.src = 'https://cloud.umami.is/script.js';
+           script.dataset.websiteId = '3582fbe3-30c7-40cf-8231-a3eec67ce639';
+           document.head.appendChild(script);
+         }
+       </script>
    </body>
 </html>
 
